@@ -1,0 +1,20 @@
+{
+  "name": "chainwarranty",
+  "version": "1.0.0",
+  "description": "ChainWarranty is a decentralized digital warranty card system designed to store, manage, and verify product warranty records immutably on the blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1"
+  }
+}
